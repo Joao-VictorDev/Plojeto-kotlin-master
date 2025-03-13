@@ -1,0 +1,138 @@
+/* Resetando margens e padding */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Fundo escuro */
+    color: #fff; /* Texto branco */
+}
+
+header {
+    background: linear-gradient(135deg, #000, #FE7A00); /* Gradiente de verde escuro para neon */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Sombra suave */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Cor amarela para links em hover */
+}
+
+footer {
+    background: linear-gradient(135deg, #000, #FE7A00); /* Gradiente de verde escuro para neon */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.6); /* Sombra suave no rodapé */
+}
+
+main {
+    padding: 20px;
+    margin-bottom: 50px; /* Espaço para o rodapé fixo */
+}
+
+article {
+    background-color: #1f1f1f; /* Fundo escuro para o artigo */
+    color: white; /* Texto branco */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* Sombra suave no artigo */
+}
+article h2{
+    text-align: center;
+}
+
+section {
+    background-color: #333; /* Fundo escuro para seções */
+    color: white; /* Texto branco */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Sombra suave nas seções */
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.download-button {
+    display: inline-block;
+    background-color: #FE7A00; /* Verde neon */
+    color: #121212; /* Texto escuro para contraste */
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra no botão */
+    transition: all 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #ffffff; /* Verde neon mais escuro no hover */
+    transform: scale(1.05); /* Efeito de aumentar o botão */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5); /* Aumento da sombra no hover */
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Estilo da imagem do aplicativo */
+/* Estilo da imagem do aplicativo */
+.app-image {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Sombra na imagem */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;  /* Torna a imagem um bloco */
+    margin-left: auto;  /* Alinha a margem esquerda automaticamente */
+    margin-right: auto; /* Alinha a margem direita automaticamente */
+}
+/* Melhorias na responsividade */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    section h2 {
+        font-size: 1.2rem;
+    }
+
+    .download-button {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+}
